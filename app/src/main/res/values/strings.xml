@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">IPCDemo</string>
+
+    <string name="aidl">AIDL</string>
+    <string name="messenger">Messenger</string>
+</resources>

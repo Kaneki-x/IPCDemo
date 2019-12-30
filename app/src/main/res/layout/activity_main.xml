@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/btn_connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="connect"/>
+
+    <Button
+            android:id="@+id/btn_disconnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="disconnect"/>
+
+    <Button
+            android:id="@+id/btn_is_connected"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="isConnected"/>
+
+    <Button
+            android:id="@+id/btn_send_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sendMessage"/>
+
+    <Button
+            android:id="@+id/btn_register_listener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="registerListener"/>
+
+    <Button
+            android:id="@+id/btn_unregister_listener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="unRegisterListener"/>
+
+    <Button
+            android:id="@+id/btn_messenger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sendByMessenger"/>
+
+</LinearLayout>
